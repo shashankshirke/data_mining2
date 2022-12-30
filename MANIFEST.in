@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include data_mining2 *.css
+recursive-include data_mining2 *.csv
+recursive-include data_mining2 *.html
+recursive-include data_mining2 *.ico
+recursive-include data_mining2 *.js
+recursive-include data_mining2 *.json
+recursive-include data_mining2 *.md
+recursive-include data_mining2 *.png
+recursive-include data_mining2 *.py
+recursive-include data_mining2 *.svg
+recursive-include data_mining2 *.txt
+recursive-exclude data_mining2 *.pyc
